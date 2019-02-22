@@ -7,13 +7,15 @@ import { Home } from './components/Home/home.component'
 import { ParentSession } from './components/ParentSession/parent-session.component'
 import { appRoutes } from './routes/app.routes'
 import { NavBar } from './components/NavBar/nav-bar.component';
+import { ChildDetail } from './components/ChildDetail/child-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Home,
     ParentSession,
-    NavBar
+    NavBar,
+    ChildDetail
   ],
   imports: [
     BrowserModule,
